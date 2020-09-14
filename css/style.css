@@ -40,11 +40,3 @@ body {
 .view {
     margin-top: 27%;
 }
-
-.col {
-    text-align: left;
-    list-style: none;
-    padding-bottom: 30px;
-    border-bottom: 1px solid;
-    margin-left: 3%;
-}
