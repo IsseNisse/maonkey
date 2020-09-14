@@ -27,16 +27,8 @@ body {
     margin-top: -20px;
 }
 
-.navbar {
-    padding: 0;
-}
-
 @media (max-width: 599px) {
     body {
         background-image: url(../img/background2.png)
     }
-}
-
-.view {
-    margin-top: 27%;
 }
