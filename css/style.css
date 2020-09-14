@@ -22,13 +22,26 @@ body {
     border-color: #000;
     border: 1px solid;
     position: relative;
-    top: 30px;
     margin-bottom: 30px;
-    margin-top: -20px;
+    font-weight: 500;
 }
 
 @media (max-width: 599px) {
     body {
         background-image: url(../img/background2.png)
     }
+}
+
+.col {
+    padding: 0;
+}
+
+.intress {
+    font-size: 1.7rem;
+}
+
+#fname, #lname{
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: #42744b
 }
