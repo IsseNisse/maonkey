@@ -1,12 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-image: url(../img/background.png);
     background-repeat: no-repeat;
     background-color: #42744b;
-}
-
-.maonkey {
-    position: relative;
-    top: 0px;
 }
 
 .triangle {
@@ -20,7 +19,7 @@ body {
 .btn {
     border-radius: 30px;
     border-color: #000;
-    border: 1px solid;
+    border: 2px solid;
     position: relative;
     margin-bottom: 30px;
     font-weight: 500;
@@ -43,5 +42,46 @@ body {
 #fname, #lname{
     border: none;
     border-bottom: 2px solid black;
-    background-color: #42744b
+    background-color: #42744b;
+    margin-bottom: 10px;
 }
+
+.container {
+    max-width: 100%;
+}
+
+.slidecontainer {
+    width: 100%;
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    margin-bottom: 10px;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+  }

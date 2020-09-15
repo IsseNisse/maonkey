@@ -16,64 +16,82 @@
         <img class="navbar-brand" src="img/maonkeyLogo.png" alt="Logo" style="width: 15%;">
     </nav>
     <div class="container" style="text-align: center;">
-        <div class="row" style="height: 70vh;">
-            <div class="col">
+        <div class="row" style="height: 60vh;">
+            <div class="col-1">
             </div>
             <div class="col-10">
                 <img src="img/monkey.jpg" alt="" style="max-width: 83%; margin-top: 4vh;">
             </div>
-            <div class="col">
+            <div class="col-1">
             </div>
         </div>
         <div class="container" style="text-align: center;">
             <div class="row" style="height: 20vh;">
-                <div class="col">
+                <div class="col-1">
                 </div>
                 <div class="col-10">
-                    <a href="#"><button type="button" class="btn btn">Köp En Nu!</button></a>
+                    <a href="#intress"><button type="button" class="btn btn">Köp En Nu!</button></a>
                 </div>
-                <div class="col">
+                <div class="col-1">
                 </div>
             </div>
-            <div class="container" style="text-align: center;">
-                <div class="row" style="height: 40vh;">
-                    <div class="col">
-                    </div>
-                    <div class="col-10">
-                        <h2>3D-VIEW</h2>
-                        <img src="img/3dmonk.png" alt="" style="max-width: 100%; margin-top: 4vh;">
-                    </div>
-                    <div class="col">
-                    </div>
+        </div>
+        <div class="container" style="text-align: center;">
+            <div class="row" style="height: 40vh;">
+                <div class="col-1">
                 </div>
-                <div class="container" style="text-align: center;">
-                    <div class="row" style="height: 40vh;">
-                        <div class="col">
+                <div class="col-10">
+                    <h2>3D-VIEW</h2>
+                    <img class="img-responsive" src="img/3dmonk.png" alt=""
+                        style="width: 350px; max-width: 100%; margin-top: 4vh;">
+                </div>
+                <div class="col-1">
+                </div>
+            </div>
+        </div>
+        <div class="container" style="text-align: center;">
+            <div class="row" style="height: 40vh;">
+                <div class="col-1">
+                </div>
+                <div class="col-10">
+                    <h3 class="intress" id="intress">Intresseanmälan</h3>
+                    <form action="/action_page.php">
+                        <label for="fname">Namn:</label>
+                        <input type="text" id="fname" name="fname" placeholder="John Denver">
+                        <label for="lname">E-Mail:</label>
+                        <input type="text" id="lname" name="lname" placeholder="john.denver@example.com"><br>
+                        <div class="slidecontainer">
+                            <p>Custom range slider:</p>
+                            <input type="range" min="100" max="500" value="50" class="slider" id="myRange">
+                            <p>Value: <span id="demo"></span></p>
                         </div>
-                        <div class="col-10">
-                            <h3 class="intress">Intresseanmälan</h3>
-                            <form action="/action_page.php">
-                                <label for="fname">Namn:</label>
-                                <input type="text" id="fname" name="fname" placeholder="John Denver">
-                                <label for="lname">E-Mail:</label>
-                                <input type="text" id="lname" name="lname" placeholder="john.denver@example.com"><br><br>
-                                <input class="btn" type="submit" value="Submit">
-                            </form>
-                        </div>
-                        <div class="col">
-                        </div>
-                    </div>
+                        <input class="btn" type="submit" value="Submit">
+                    </form>
+                </div>
+                <div class="col-1">
+                </div>
+            </div>
+        </div>
 
 
-                    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-                        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-                        crossorigin="anonymous"></script>
-                    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-                        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-                        crossorigin="anonymous"></script>
-                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-                        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-                        crossorigin="anonymous"></script>
+        <script>
+            var slider = document.getElementById("myRange");
+            var output = document.getElementById("demo");
+            output.innerHTML = slider.value;
+
+            slider.oninput = function () {
+                output.innerHTML = this.value;
+            }
+        </script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
