@@ -55,6 +55,8 @@ label, p {
 .gdpr {
     font-weight: 500;
     font-size: 0.8rem;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 #fname, #lname{
@@ -129,5 +131,10 @@ label, p {
 
     .btn {
         font-size: 1rem;
+    }
+
+    .gdpr {
+        margin-left: 0;
+        margin-right: 0;
     }
 }
