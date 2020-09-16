@@ -28,6 +28,7 @@ body {
     margin-bottom: 30px;
     font-weight: 500;
     font-size: 2rem;
+    
 }
 
 .col {
@@ -40,6 +41,20 @@ body {
 
 .row {
     height: 60vh;
+}
+
+h2, h3 {
+    font-family: 'Nunito', sans-serif;
+}
+
+label, p {
+    font-family: 'Scope One', serif;
+    font-weight: 600;
+}
+
+.gdpr {
+    font-weight: 500;
+    font-size: 0.8rem;
 }
 
 #fname, #lname{
