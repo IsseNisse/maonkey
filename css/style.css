@@ -3,9 +3,13 @@ html {
 }
 
 body {
-    background-image: url(../img/background.png);
-    background-repeat: no-repeat;
     background-color: #469354;
+}
+
+.bg-img {
+    background-image: url(../img/background2.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
 }
 
 .navbar-brand {
@@ -114,31 +118,7 @@ label, p {
 
   @media (max-width: 599px) {
     body {
-        background-image: url(../img/background2.png)
-    }
-
-    #fname, #lname{
-        border: none;
-        border-bottom: 2px solid black;
-        background-color: #469354;
-        margin-bottom: 10px;
-        width: 100%
-    }
-
-    .slider {
-        width: 100%;
-    }
-
-    .navbar-brand {
-        width: 15%;
-    }
-
-    .btn {
-        font-size: 1rem;
-    }
-
-    .gdpr {
-        margin-left: 0;
-        margin-right: 0;
+        background-image: url(../img/background2.png);
+        background-repeat: no-repeat;
     }
 }
