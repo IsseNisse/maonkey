@@ -31,6 +31,10 @@ body {
     
 }
 
+.monkey.img {
+    opacity: 95%;
+}
+
 .col {
     padding: 0;
 }
