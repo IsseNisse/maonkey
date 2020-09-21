@@ -41,10 +41,6 @@ html {
     font-size: 1.7rem;
 }
 
-h2, h3 {
-    font-family: 'Lexend Peta', sans-serif;
-}
-
 label, p {
     font-family: 'Scope One', serif;
     font-weight: 600;
@@ -59,7 +55,7 @@ label, p {
 
 #fname, #lname{
     border: none;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid white;
     margin-bottom: 15px;
 }
 
@@ -121,5 +117,8 @@ label, p {
     background-color: #469354;
 }
 .coolor-border{
-    border-color: black;
+    border-color: white;
+}
+.coolor-text {
+    color: white;
 }
